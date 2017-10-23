@@ -1,0 +1,29 @@
+{
+  "name": "raindrops",
+  "version": "1.0.0",
+  "description": "A simple program to test ifa numbers is divisible by 3,5 or 7. GP or none.",
+  "main": "src/main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/test.js",
+    "start": "node ./src/main.js"
+      },
+      
+  "keywords": [
+    "prime numbers",
+    "bootcamp",
+    "mocha",
+    "chai"
+  ],
+  "author": "Victor",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  },
+  "devDependencies": {
+    
+  }
+}
